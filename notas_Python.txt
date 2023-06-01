@@ -1,0 +1,46 @@
+
+
+Machine Lern.
+Processamento de linguagem natural.
+
+
+________________________________________________________
+
+Para instalar o Python3 no Ubuntu
+sudo apt install python3-pip
+
+________________________________________________________
+
+# Quando a biblioteca não instala, é possivel baixa-la e e copiala diretamente para a pasta onde o Python esta instalado.
+# No Win a biblioteca fica em C:\Python27\Scripts>
+
+________________________________________________________
+
+
+Instale python3 e python3-pip usando o gerenciador de pacotes da distribuição Linux.
+Então execute:
+
+pip3 install -U scikit-learn
+
+Para verificar sua instalação, você pode usar
+
+________________________________________________________
+
+# Mineração de texto (Técnica de s... variações gramaticais)
+# IBF = Termos suspeitos
+# Quanto menos frequente um termo maior a relevancia.
+# A mineração de texto pode ser Semantica ou Estatistica.
+#
+
+________________________________________________________
+
+# Avaliar a medida de precisão/acerto do modelo.
+# Medida do desempenho do modelo.
+
+________________________________________________________
+
+
+
+
+
+
