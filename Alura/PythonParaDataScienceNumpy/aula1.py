@@ -15,10 +15,9 @@ import sys
 versoPython = sys.version
 print("versao do Python : "+versoPython) 
 
-
+# 1.3 Trabalhando com arrays Numpy
 # Para instalar o NumPy no seu ambiente Python, rode o seguinte comando no terminal ou prompt de comando:
 # pip install numpy
-
 # Agora podemos impotar a biblioteca numpy para nosso codigo.
 import numpy as np
 
@@ -27,13 +26,13 @@ import numpy as np
 # Carregar arquivo carros_km.txt em memoria.
 km = np.loadtxt('carros_km.txt')
 print(km)
-input("Pressione Enter para continuar...")
+input("Pressione Enter para continuar... Carregar arquivo carros_anos.txt em memoria:")
 
 # Carregar arquivo carros_anos.txt em memoria.
 anos = np.loadtxt('carros_anos.txt', dtype=int)
 # Mostra o conteudo carregado do arquivo carros_km.txt.
 print(anos)
-input("Pressione Enter para continuar...")
+input("Pressione Enter para continuar... Obtendo a quilometragem média por ano:")
 
 ### Obtendo a quilometragem média por ano
 Km_media = km / (2019 - anos)
@@ -43,5 +42,5 @@ Km_media = km / (2019 - anos)
 print(Km_media )
 
 # Mostrar o tipo de ariavel
-print("tipo de ariavel Km_media é :")
+print("tipo de Variavel Km_media é :")
 print(type(Km_media)) 
