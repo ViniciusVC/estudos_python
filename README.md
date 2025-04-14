@@ -19,3 +19,8 @@ Experiments with Python
 ## /rede_valente_01
 
 .Encontrar o componente que efetivamente esta causando o erro na rede.
+
+## Alura
+
+* PYTHON PARA DATA SCIENCE - PANDAS
+* PYTHON PARA DATA SCIENCE - NUMPY
